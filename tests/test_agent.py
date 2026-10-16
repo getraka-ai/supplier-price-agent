@@ -22,7 +22,7 @@ def test_recent_changes_sorted_and_correct(conn):
     items = [(c["supplier"], c["item"]) for c in out["changes"]]
     assert items[0] == ("Bay Produce Co.", "thai basil")  # +10.8% is the biggest
     rice = next(c for c in out["changes"] if c["item"] == "jasmine rice 50lb")
-    assert (rice["old_price"], rice["new_price"], rice["pct_change"]) == (48.0, 52.0, 8.3)
+    assert (rice["old_price"], rice["new_price"], rice["pct_change"]) == (48.0, 52.5, 9.4)
     assert all(c["item"] != "coconut milk 13.5oz" for c in out["changes"])  # unchanged price
 
 
@@ -34,7 +34,7 @@ def test_min_pct_filter(conn):
 def test_compare_suppliers_cheapest_first(conn):
     out = tools.compare_suppliers(conn, "rice")
     assert out["cheapest"] == "Pacific Asian Foods"
-    assert [o["latest_price"] for o in out["offers"]] == [49.0, 52.0]
+    assert [o["latest_price"] for o in out["offers"]] == [49.0, 52.5]
 
 
 def test_dish_impact(conn):

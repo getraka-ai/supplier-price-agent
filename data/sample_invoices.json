@@ -9,7 +9,7 @@
     {"date": "2026-08-04", "supplier_id": "S1", "item": "jasmine rice 50lb", "unit": "bag", "qty": 4, "unit_price": 48.00},
     {"date": "2026-08-18", "supplier_id": "S1", "item": "jasmine rice 50lb", "unit": "bag", "qty": 4, "unit_price": 48.00},
     {"date": "2026-09-01", "supplier_id": "S1", "item": "jasmine rice 50lb", "unit": "bag", "qty": 4, "unit_price": 50.50},
-    {"date": "2026-09-15", "supplier_id": "S1", "item": "jasmine rice 50lb", "unit": "bag", "qty": 4, "unit_price": 52.00},
+    {"date": "2026-09-15", "supplier_id": "S1", "item": "jasmine rice 50lb", "unit": "bag", "qty": 4, "unit_price": 52.50},
     {"date": "2026-09-08", "supplier_id": "S3", "item": "jasmine rice 50lb", "unit": "bag", "qty": 2, "unit_price": 49.00},
 
     {"date": "2026-08-04", "supplier_id": "S2", "item": "chicken thigh boneless", "unit": "lb", "qty": 80, "unit_price": 3.10},
