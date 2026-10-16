@@ -1,0 +1,38 @@
+{
+  "_note": "Synthetic demo data. Supplier and restaurant names are fictional. No real customer data.",
+  "suppliers": [
+    {"id": "S1", "name": "Bay Produce Co.", "email": "orders@bayproduce.example"},
+    {"id": "S2", "name": "Golden Gate Meats", "email": "sales@ggmeats.example"},
+    {"id": "S3", "name": "Pacific Asian Foods", "email": "accounts@pacificasian.example"}
+  ],
+  "invoice_lines": [
+    {"date": "2026-08-04", "supplier_id": "S1", "item": "jasmine rice 50lb", "unit": "bag", "qty": 4, "unit_price": 48.00},
+    {"date": "2026-08-18", "supplier_id": "S1", "item": "jasmine rice 50lb", "unit": "bag", "qty": 4, "unit_price": 48.00},
+    {"date": "2026-09-01", "supplier_id": "S1", "item": "jasmine rice 50lb", "unit": "bag", "qty": 4, "unit_price": 50.50},
+    {"date": "2026-09-15", "supplier_id": "S1", "item": "jasmine rice 50lb", "unit": "bag", "qty": 4, "unit_price": 52.00},
+    {"date": "2026-09-08", "supplier_id": "S3", "item": "jasmine rice 50lb", "unit": "bag", "qty": 2, "unit_price": 49.00},
+
+    {"date": "2026-08-04", "supplier_id": "S2", "item": "chicken thigh boneless", "unit": "lb", "qty": 80, "unit_price": 3.10},
+    {"date": "2026-08-18", "supplier_id": "S2", "item": "chicken thigh boneless", "unit": "lb", "qty": 80, "unit_price": 3.10},
+    {"date": "2026-09-01", "supplier_id": "S2", "item": "chicken thigh boneless", "unit": "lb", "qty": 80, "unit_price": 3.25},
+    {"date": "2026-09-15", "supplier_id": "S2", "item": "chicken thigh boneless", "unit": "lb", "qty": 80, "unit_price": 3.36},
+
+    {"date": "2026-08-04", "supplier_id": "S3", "item": "coconut milk 13.5oz", "unit": "can", "qty": 48, "unit_price": 1.45},
+    {"date": "2026-09-15", "supplier_id": "S3", "item": "coconut milk 13.5oz", "unit": "can", "qty": 48, "unit_price": 1.45},
+
+    {"date": "2026-08-04", "supplier_id": "S1", "item": "thai basil", "unit": "lb", "qty": 6, "unit_price": 6.50},
+    {"date": "2026-09-15", "supplier_id": "S1", "item": "thai basil", "unit": "lb", "qty": 6, "unit_price": 7.20}
+  ],
+  "dishes": [
+    {"name": "Basil Chicken", "menu_price": 17.95, "ingredients": [
+      {"item": "chicken thigh boneless", "qty": 0.4},
+      {"item": "thai basil", "qty": 0.05},
+      {"item": "jasmine rice 50lb", "qty": 0.006}
+    ]},
+    {"name": "Green Curry Chicken", "menu_price": 18.95, "ingredients": [
+      {"item": "chicken thigh boneless", "qty": 0.35},
+      {"item": "coconut milk 13.5oz", "qty": 0.5},
+      {"item": "jasmine rice 50lb", "qty": 0.006}
+    ]}
+  ]
+}
