@@ -6,7 +6,7 @@ A small tool-calling agent built on the Claude API. Ask it about your supplier i
 > "What does the chicken increase do to my Basil Chicken margin?"
 > "Is anyone cheaper for rice? Draft an email asking Bay Produce about it."
 
-<!-- TODO: add demo.gif here -->
+![demo](demo.gif)
 
 ## How it works
 
